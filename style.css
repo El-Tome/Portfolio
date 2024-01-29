@@ -89,6 +89,22 @@ nav
     line-height: normal;
 }
 
+/* style page d'acceuil*/
+h1
+{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+#ampoule
+{
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    max-width: 700px;
+    max-height: 700px;
+}
+
 /* style a propos */
 #background
 {
@@ -112,6 +128,7 @@ nav
     top: 74px;
     left: 50%;
     text-align: center;
+    font-family: "Space Grotesk";
 }
 
 #contentAPropos
@@ -120,6 +137,11 @@ nav
     top: 200px;
     width: 1000px;
     display: flex;
+}
+
+#contentAPropos p
+{
+    margin-left: 70px;
 }
 
 #maPhoto
@@ -138,3 +160,66 @@ nav
     position: absolute;
     top: 150px;
 }
+
+
+/* style formation et Compétence */
+#formaCompe
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#forma
+{
+    margin-top: 70px;
+    width: 400px;
+}
+
+#compe
+{
+    margin-top: 70px;
+    width: 400px;
+}
+
+.logo
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#hard-skills
+{
+    background-color: #ffffff;
+    box-shadow: 0 10px 29px 0 rgba(36, 47, 77, 0.2);
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+#hard-skills:hover
+{
+    border-color: #ED7D31;
+}
+
+#hard-skills h3
+{
+    font-size: 40px;
+}
+
+#hard-skills-elements
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#hard-skills-elements img
+{
+    margin-top: 10px;
+}
+
