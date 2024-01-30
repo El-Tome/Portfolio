@@ -17,6 +17,7 @@ body
     font-size: 20px;
     font-family: "PT Sans Narrow";
 
+    overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
 
@@ -162,7 +163,8 @@ h1
 }
 
 
-/* style formation et Compétence */
+/* style formation et Compétences */
+/* compétences*/
 #formaCompe
 {
     display: flex;
@@ -173,13 +175,13 @@ h1
 #forma
 {
     margin-top: 70px;
-    width: 400px;
+    width: 500px;
 }
 
 #compe
 {
     margin-top: 70px;
-    width: 400px;
+    width: 500px;
 }
 
 .logo
@@ -223,3 +225,37 @@ h1
     margin-top: 10px;
 }
 
+
+/* formations */
+li
+{
+    list-style: none;
+    position: relative;
+}
+
+.formation
+{
+    border-left: 2px solid #141414 ;
+    padding: 10px 0 0 20px;
+    margin-left: 10px;
+}
+
+.nomForma::before
+{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -31px;
+    top: 3px;
+    border: 2px solid #141414;
+    background-color: #ED7D31;
+}
+
+.date
+{
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    text-align: left;
+}
