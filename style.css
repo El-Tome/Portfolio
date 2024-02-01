@@ -130,6 +130,7 @@ h1
     left: 50%;
     text-align: center;
     font-family: "Space Grotesk";
+    font-size: 50px;
 }
 
 #contentAPropos
@@ -232,6 +233,12 @@ h1
     justify-content: center;
 }
 
+#titleCompe
+{
+    font-size: 50px;
+    font-family: "Space Grotesk";
+}
+
 
 /* formations */
 li
@@ -267,8 +274,76 @@ li
     text-align: left;
 }
 
+#titleForma
+{
+    font-size: 50px;
+    font-family: "Space Grotesk";
+}
 
-#projet
+.littleTitle
+{
+    font-size: 30px;
+}
+
+
+
+
+/* Projet*/
+
+#titleProjet
 {
     padding-top: 70px;
+    font-size: 50px;
+    font-family: "Space Grotesk";
+    text-align: center;
+}
+
+.projets
+{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+
+.projets img
+{
+    width: 600px;
+    height: auto;
+
+}
+
+.nomProjet
+{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform:  translate(-50%,0);
+    font-size: 40px;
+
+}
+.projetsContent
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.projetsContent a
+{
+    text-decoration: none;
+    position: absolute;
+    font-size: 25px;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.projetsContent p
+{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
 }

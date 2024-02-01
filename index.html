@@ -51,9 +51,9 @@
 
     <section id="formaCompe">
         <div id="forma">
-            <h2>Formations</h2>
+            <h2 id="titleForma">Formations</h2>
 
-            <h3>Scolaires</h3>
+            <h3 class="littleTitle">Scolaires</h3>
             <ul>
                 <div class="formation">
                     <li class="nomForma">BTS Services Informatiques aux Organisation</li>
@@ -67,7 +67,7 @@
                 </div>
             </ul>
 
-            <h3>Personnelles</h3>
+            <h3 class="littleTitle">Personnelles</h3>
             <p>OpenClassRoom : </p>
             <ul>
                 <div class="formation">
@@ -93,7 +93,7 @@
             </ul>
         </div>
         <div id="compe">
-            <h2>Compétences</h2>
+            <h2 id="titleCompe">Compétences</h2>
 
             <div class="skills">
                 <h3>Hard skills</h3>
@@ -121,9 +121,27 @@
 
     <section id="projet">
 
-        <h2>MES PROJETS</h2>
-        <a href="https://github.com/El-Tome/PongP5" target="_blank">pong p5</a>
-        <a href="https://mealio.fr" target="_blank">mealio.fr</a>
+        <h2 id="titleProjet">MES PROJETS</h2>
+
+        <div id="mealio" class="projets">
+            <img src="images/projets/mealio.png" alt="image de mealio">
+            <div class="projetsContent">
+                <h3 class="nomProjet">mealio.fr</h3>
+                <p>Mealio est un site de partage de recettes. Il a pour objectif d'aider les étudiants en manque d'inspiration à choisir des recettes de manière équilibrée et automatique. <br><br>
+                J'ai souhaité faire cette première version du site en n'utilisant aucun framework pour apprendre et m'entrainer en PHP.
+                </p>
+                <a href="https://mealio.fr" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="pong" class="projets">
+            <img src="images/projets/pong.png" alt="image pong">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Pong avec P5</h3>
+                <p>Ce jeu est une copie du jeu pong réalisé en Javascript grâce à la bibliothèque P5. La partie dure jusqu'à l'échec du renvoi d'une balle et une nouvelle balle se génère tous les 5 points. <br><br>
+                Il utilise une 'class Balles' pour gérer plusieurs objets sur le terrain de jeu.</p>
+                <a href="https://github.com/El-Tome/PongP5" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
     </section>
 </body>
 </html>
