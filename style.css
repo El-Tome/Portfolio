@@ -190,8 +190,9 @@ h1
     max-height: 100px;
 }
 
-#hard-skills
+.skills
 {
+    margin-top: 30px;
     background-color: #ffffff;
     box-shadow: 0 10px 29px 0 rgba(36, 47, 77, 0.2);
     transition: all 0.2s ease-in-out;
@@ -201,12 +202,12 @@ h1
     align-items: center;
     padding: 10px;
 }
-#hard-skills:hover
+.skills:hover
 {
     border-color: #ED7D31;
 }
 
-#hard-skills h3
+.skills h3
 {
     font-size: 40px;
 }
@@ -223,6 +224,12 @@ h1
 #hard-skills-elements img
 {
     margin-top: 10px;
+}
+
+#soft-skills-element
+{
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -258,4 +265,10 @@ li
     background-color: #F0F0F0;
     border-radius: 10px;
     text-align: left;
+}
+
+
+#projet
+{
+    padding-top: 70px;
 }

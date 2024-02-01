@@ -8,11 +8,11 @@
 </head>
 <body>
     <nav>
-        <a href="" id="btn-logo">Tom Chaumette</a>
+        <a href="#accueil" id="btn-logo">Tom Chaumette</a>
         <div id="nav-content">
-            <a href="" class="btn-nav">A propos</a>
-            <a href="" class="btn-nav">Formations/Compétences</a>
-            <a href="" class="btn-nav">Projets</a>
+            <a href="#apropos" class="btn-nav">A propos</a>
+            <a href="#formaCompe" class="btn-nav">Formations/Compétences</a>
+            <a href="#projet" class="btn-nav">Projets</a>
         </div>
         <button onclick="window.location.href='#ancre'" id="btn-contact">Contact</button>
     </nav>
@@ -30,10 +30,11 @@
         <div id="contentAPropos">
             <img src="images/maPhoto.jpg" alt="ma Photo" id="maPhoto">
             <p>
-                Je m'appelle Tom Chaumette j'ai 20 ans et je souhaite devenir développeur web pour le côté backend. <br><br>
-                Durant mon adolescence, j'ai découvert l'informatique qui est un monde très vaste, j'ai donc choisi de poursuivre une formation 
-                technologique(STI2D) dans l’objectif de dévouvrir un peu mieux cette univers. Grace à cette formation j’ai pu découvir les languages 
-                commes l’HTML et le C++, ayant pris gout au language de programation j’ai commencé à les  apprendre, notament le PHP qui est devenu
+                Je m'appelle Tom Chaumette j'ai 20 ans et je souhaite devenir développeur web backend. <br><br>
+                J'ai découvert l'informatique qui est un monde très vaste, j'ai donc choisi de poursuivre une formation 
+                technologique(STI2D) dans l’objectif de dévouvrir un peu mieux cette univers. Grâce à cette formation j’ai pu découvir les langages 
+                comme l’HTML et le C++. <br>
+                Ayant pris goût aux langages de programmation, j’ai commencé à les  apprendre, notament le PHP qui est devenu
                 l'une de mes passions. <br><br>
                 J'ai donc décidé de réaliser une formation en BTS SIO avec l'option SLAM au lycée de Simon Weil à Saint-Priez en jaret dans l'objectif 
                 de travailler dans ce milieu passionnant.
@@ -42,7 +43,7 @@
         <div id="info">
             <p>Chaumette Tom</p>
             <p>07.83.63.10.37</p>
-            <p>3 rue des près de Moint, 42600 Montbrison</p>
+            <p>3 rue des près de Moingt, 42600 Montbrison</p>
             <p>chaumettetom1@gmail.com</p>
         </div>
         <img src="images/neon.svg" alt="néon pour le style" id="neon">
@@ -66,31 +67,35 @@
                 </div>
             </ul>
 
-            <h3>Personnels</h3>
+            <h3>Personnelles</h3>
             <p>OpenClassRoom : </p>
             <ul>
                 <div class="formation">
                     <li class="nomForma">Concevez votre site web avec PHP et MySQL</li>
                     <p class="date">Novembre 2022</p>
+                    <p>Une formation pour apprendre les bases du langage PHP et SQL</p>
                 </div>
                 <div class="formation">
                     <li class="nomForma">Créez votre site web avec HTML5 et CSS3</li>
                     <p class="date">Mars 2020</p>
+                    <p>Une formation pour apprendre les langages HTML5 et CSS3</p>
                 </div>
                 <div class="formation">
                     <li class="nomForma">Comprendre le Web</li>
                     <p class="date">Octobre 2020</p>
+                    <p>Une formation permettant de découvrir l'univers du WEB</p>
                 </div>
                 <div class="formation">
                     <li class="nomForma">Apprendre à utiliser la ligne de commande dans un terminal</li>
                     <p class="date">Mars 2020</p>
+                    <p>Une formation permettant d'apprendre les lignes de commande</p>
                 </div>
             </ul>
         </div>
         <div id="compe">
             <h2>Compétences</h2>
 
-            <div id="hard-skills">
+            <div class="skills">
                 <h3>Hard skills</h3>
                 <div id="hard-skills-elements">
                     <img class="logo" src="images/logo/html.png" alt="">
@@ -103,17 +108,20 @@
                 </div>
             </div>
 
-            <h3>Soft skills</h3>
-            <ul>
-                <li>Esprit logique</li>
-                <li>Passionné</li>
-                <li>Curieux</li>
-            </ul>
+            <div class="skills">
+                <h3>Soft skills</h3>
+                <div id="soft-skills-elements">
+                    <p>💡 Esprit logique💡</p>
+                    <p>🖳 Passionné 🖳</p>
+                    <p>🧐 Curieux 🧐</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section>
-        <h2>MES PROJECTS</h2>
+    <section id="projet">
+
+        <h2>MES PROJETS</h2>
         <a href="https://github.com/El-Tome/PongP5" target="_blank">pong p5</a>
         <a href="https://mealio.fr" target="_blank">mealio.fr</a>
     </section>
