@@ -30,14 +30,17 @@
         <div id="contentAPropos">
             <img src="images/maPhoto.jpg" alt="ma Photo" id="maPhoto">
             <p>
-                Je m'appelle Tom Chaumette j'ai 20 ans et je souhaite devenir développeur web backend. <br><br>
+                Je m'appelle Tom Chaumette j'ai 21 ans j'ai jusqu'à présent réalise un parcours pour devenir un développeur backend. Mais je souhaite me diversifier également dans le domaine de la cybersécurité et/ou l'intelligence artificielle. <br><br>
+      
                 J'ai découvert l'informatique qui est un monde très vaste, j'ai donc choisi de poursuivre une formation 
                 technologique(STI2D) dans l’objectif de dévouvrir un peu mieux cette univers. Grâce à cette formation j’ai pu découvir les langages 
                 comme l’HTML et le C++. <br>
                 Ayant pris goût aux langages de programmation, j’ai commencé à les  apprendre, notament le PHP qui est devenu
-                l'une de mes passions. <br><br>
-                J'ai donc décidé de réaliser une formation en BTS SIO avec l'option SLAM au lycée de Simon Weil à Saint-Priez en jaret dans l'objectif 
-                de travailler dans ce milieu passionnant.
+                l'une de mes passions. <br>
+                J'ai donc décidé de réaliser une formation en BTS SIO avec l'option SLAM, dans l'objectif de me spécialiser dans le domaine du développement web. J'ai également eu la chance de réaliser ma deuxième année en alternance chez <a href="https://www.axome.com/" target="_blank">Axome Trenta</a>.<br><br>
+
+                Mais plus récemment, avec l'arrivée de l'IA, je commence à me poser des questions sur le futur de l'informatique et les opportunités que cela représente. <br>
+                C'est pourquoi je souhaite soit de me spécialiser au plus possible dans le développement, soit de me diversifier dans le domaine de la cybersécurité ou l'intelligence artificielle.
             </p>
         </div>
         <div id="info">
@@ -70,6 +73,16 @@
             <h3 class="littleTitle">Personnelles</h3>
             <p>OpenClassRoom : </p>
             <ul>
+                <div class="formation">
+                    <li class="nomForma">Construisez un site web à l'aide du framework Symfony</li>
+                    <p class="date">Mai 2024</p>
+                    <p>Une formation pour apprendre les bases du framework Symfony</p>
+                </div>
+                <div class="formation">
+                    <li class="nomForma">Programmez en orienté objet en PHP</li>
+                    <p class="date">Mai 2023</p>
+                    <p>Une formation pour apprendre les bases de la programmation orientée objet en PHP</p>
+                </div>
                 <div class="formation">
                     <li class="nomForma">Concevez votre site web avec PHP et MySQL</li>
                     <p class="date">Novembre 2022</p>
@@ -105,6 +118,10 @@
                     <img class="logo" src="images/logo/github.png" alt="">
                     <img class="logo" src="images/logo/python.png" alt="">
                     <img class="logo" src="images/logo/css.png" alt="">
+                    <img class="logo" src="images/logo/symfony.webp" alt="">
+                    <img class="logo" src="images/logo/docker.webp" alt="">
+                    <img class="logo" src="images/logo/linux.webp" alt="">
+                    <img class="logo" src="images/logo/java.webp" alt="">
                 </div>
             </div>
 
@@ -122,15 +139,90 @@
     <section id="projet">
 
         <h2 id="titleProjet">MES PROJETS</h2>
-
+        <div id="vps" class="projets">
+            <img src="images/projets/vps.png" alt="image de VPS">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Paramétrage d'un VPS</h3>
+                <p>Pour mes sites web, j'ai décidé d'acheter un VPS. <br><br>
+                J'ai donc dû paramétrer mon VPS pour qu'il soit optimisé pour mes sites web.<br><br>
+                J'ai décidé d'utiliser des containers Docker pour gérer mes services.
+                </p>
+                <a href="https://github.com/El-Tome/template-vps" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="lib-arduino" class="projets">
+            <img src="images/projets/lib-arduino.png" alt="image de lib-arduino">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Lib pour volant customisé</h3>
+                <p>Cette librairie pour Arduino permet de faire des actions pour créer un volant de simulation customisé. <br><br>
+                Elle récupère les données de capteur et les envoies à notre ordinateur pour faire detecter notre arduino en manette de jeux.</p>
+                <a href="https://github.com/El-Tome/USBHIDWheel" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="blog-symfony" class="projets">
+            <img src="images/projets/blog-symfony.png" alt="image de blog symfony">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Blog avec Symfony</h3>
+                <p>Réalisation d'un site de blog complet développé avec le framework Symfony. <br><br>
+                    Un petit projet pour apprendre les bases de Symfony. <br><br>
+                </p>
+                <a href="https://github.com/El-Tome/blogSymfony" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="docker-apps" class="projets">
+            <img src="images/projets/docker-apps.png" alt="image de docker-apps">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Dockerisation d'applications PHP</h3>
+                <p>Ce projet consiste à créer des environnements Docker pour différentes applications PHP. <br><br>
+                J'ai mis en place des configurations Docker pour des applications PHP classiques ainsi que des projets Symfony, permettant un déploiement rapide et cohérent sur différents environnements. <br><br>
+                Cette approche facilite le développement.</p>
+                <a href="https://github.com/El-Tome/tp_Container" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="discord-bot" class="projets">
+            <img src="images/projets/discord-bot.png" alt="image de bot discord">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Bot Discord</h3>
+                <p>Développement d'un bot Discord pour explorer et maîtriser l'utilisation des API. <br><br>
+                Ce projet m'a permis d'approfondir mes connaissances sur les interactions avec les API externes et de comprendre le fonctionnement des webhooks Discord.</p>
+                <a href="https://github.com/El-Tome/KillianTom" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="javaPronote" class="projets">
+            <img src="images/projets/javaPronote.png" alt="image de javaPronote">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Pronote Minimaliste en Java</h3>
+                <p>Ce projet est une recréation minimaliste de Pronote développée en Java. <br><br>
+                L'objectif était de reproduire les fonctionnalités essentielles de l'application Pronote dans une version simplifiée et légère, tout en appliquant les principes de programmation Java.</p>
+                <a href="https://github.com/El-Tome/javaPronote" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="restaurant" class="projets">
+            <img src="images/projets/restaurant.png" alt="image de restaurant">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Restaurant</h3>
+                <p>Ce projet est un site de restaurant qui permet de gérer les commandes et les réservations des tables d'un restaurant. réalisé en Java <br><br>
+                    Il y a une refonte total du site avec les compétences acquises en BTS SIO (En cours de réalisation).
+                </p>
+                <a href="https://github.com/El-Tome/TP_Restaurant" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
+        <div id="algo" class="projets">
+            <img src="images/projets/algo.png" alt="image de algo">
+            <div class="projetsContent">
+                <h3 class="nomProjet">Petit programe pour apprendre l'algoritme en python</h3>
+                <p>Ce petit programe pour apprendre l'algorithme a été réalisé en Python.</p>
+                <a href="https://github.com/El-Tome/algo" target="_blank" class="btn-projet">Visiter</a>
+            </div>
+        </div>
         <div id="mealio" class="projets">
             <img src="images/projets/mealio.png" alt="image de mealio">
             <div class="projetsContent">
-                <h3 class="nomProjet">mealio.fr</h3>
+                <h3 class="nomProjet">mealio</h3>
                 <p>Mealio est un site de partage de recettes. Il a pour objectif d'aider les étudiants en manque d'inspiration à choisir des recettes de manière équilibrée et automatique. <br><br>
                 J'ai souhaité faire cette première version du site en n'utilisant aucun framework pour apprendre et m'entrainer en PHP.
                 </p>
-                <a href="https://mealio.fr" target="_blank" class="btn-projet">Visiter</a>
+                <a href="https://github.com/El-Tome/siteCuisine" target="_blank" class="btn-projet">Visiter</a>
             </div>
         </div>
         <div id="pong" class="projets">

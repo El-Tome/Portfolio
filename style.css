@@ -144,7 +144,24 @@ h1
 #contentAPropos p
 {
     margin-left: 70px;
+    z-index: 10;
 }
+
+#contentAPropos a
+{
+    color: #ED7D31;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+#contentAPropos a:hover
+{
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+
 
 #maPhoto
 {
@@ -155,6 +172,7 @@ h1
 {
     position: absolute;
     top: 600px;
+    z-index: 10;
 }
 
 #neon
